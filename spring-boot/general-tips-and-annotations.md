@@ -8,7 +8,7 @@ public class UserController {
 
     private final UserService userService; 
     
-    (Use @AllArgsConstructor at top or write the constructor manually.)
+    (Put @RequiredArgsConstructor annotation at top or write the constructor manually.)
 }
 
 ### 002: @GeneratedValue(strategy = GenerationType.X) is the main strategy for deciding how to produce primary key (id). There are 5 main strategies as I learn:
